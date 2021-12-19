@@ -8,7 +8,7 @@ const Contact = () => {
 
       <Container>
         <h1 className="mt-4">Contact Us</h1>
-        <Form className="mt-4">
+        <Form className="mt-4 mb-5">
           <Row className="mb-3">
             <Form.Group as={Col} controlId="formGridEmail">
               <Form.Label>Email</Form.Label>
