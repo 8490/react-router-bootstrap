@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Footer from "./components/Footer";
 import FullStack from "./pages/FullStack";
 import Instructors from "./pages/Instructors";
-// import InstructorDetail from "./pages/InstructorDetail";
+import InstructorDetail from "./pages/InstructorDetail";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path="/devops" element={<FullStack />} />
         {/* ************************************************* */}
         <Route path="/instructors" element={<Instructors />} />
-        {/* <Route path="/instructors/:login" element={<InstructorDetail />} /> */}
+        <Route path="/instructors/:login" element={<InstructorDetail />} />
       </Routes>
       <Footer />
     </BrowserRouter>
